@@ -1,3 +1,4 @@
+const Port =process.env.PORT || 3000
 const express = require("express");
 const mongoose = require("mongoose");
 const Article = require("./Modal/articles");
@@ -24,4 +25,4 @@ app.get("/", async (req, res) => {
 
 app.use("/articles", articleRouter);
 
-app.listen(3000);
+app.listen(Port);
