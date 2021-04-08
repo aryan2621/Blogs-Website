@@ -17,10 +17,10 @@
 # Step-4 (Create the views)
 ## Create views->articles->which consist of 5 views and the index.ejs will at the homepage->at the start page
 
-# Step-5
+# Step-5(Building of Files)
 ## Create further views as form.ejs ,new.ejs,edit.ejs,show.ejs and the _form_field.ejs is the partial that is used by these ejs files
 
-# Step-6(Use of makkdown ->in Html)
+# Step-6(Use of markdown ->in Html)
 ## Write the function in Modals for purifying the dom and make use of markdown in project
 
 # Step-7(Deleting the Blog)
