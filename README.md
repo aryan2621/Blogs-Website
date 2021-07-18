@@ -1,31 +1,79 @@
-# Project Ovierview
-## This project use the technologies like Nodejs,Express.js,Nodemon,Mongoose,marked and Slugify 
 
-# Starting setup
-## Start by installing the packages after initializing the project by(npm init -y) by npm i mongoose express ejs
 
-# Step-1(setting the server)
-## Setup the initial server at port 5000 or what you like and visit to mongodb website and create a db there 
+# Blog Website
 
-# Step-2(making routes)
-## In this step all the routes has be setup after "/articles" 
-## For that make a routes-> articles.js and write your all the routes there
+This project use the technologies like Nodejs, Express.js ,Nodemon, Mongoose, marked and Slugify
 
-# Step-3(Making the Modal)
-## Visti the Modal ->articles.js and write down the all the fields excepts the function created there
+## Screenshots
 
-# Step-4 (Create the views)
-## Create views->articles->which consist of 5 views and the index.ejs will at the homepage->at the start page
+![App Screenshot](https://user-images.githubusercontent.com/69208178/126063766-8a7fccdf-dcaf-4879-9f9d-64de52d53a77.png)
 
-# Step-5(Building of Files)
-## Create further views as form.ejs ,new.ejs,edit.ejs,show.ejs and the _form_field.ejs is the partial that is used by these ejs files
+  
+## Authors
 
-# Step-6(Use of markdown ->in Html)
-## Write the function in Modals for purifying the dom and make use of markdown in project
+- [Rishabh Verma](https://github.com/aryan2621)
 
-# Step-7(Deleting the Blog)
-## To deleting the Blog as there is no special method so install methodoverride and create your own method of deleting by passing the id and 
-## making the form and placing button in it
+  ## Color Reference
+This block consist of all the important steps that has been taken.
 
-# Working Project
-## https://mern-blog-website.herokuapp.com/
+| Steps             | Description                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Starting setup |Start by installing the packages after initializing the
+|| project by(npm init -y) by npm i mongoose express ejs
+| setting the server| Setup the initial server at port 5000 or what you 
+||like and visit to mongodb website and create a db there |
+| making routes | In this step all the routes has be setup after "/articles" .
+||For that make a routes-> articles.js and write your all the routes there |
+|Making the Modal| Visit the Modal ->articles.js and write down the all the fields 
+||excepts the function created there |
+|Create the views|Create views->articles->which consist of 5 views and the index.ejs will at the homepage->at the
+|| start page |
+|Building of Files| Visit the Modal ->articles.js and write down the all the fields excepts the function 
+||created there |
+|Use of markdown ->in Html|Write the function in Modals for purifying the dom and make use of markdown in project|
+|Deleting the Blog|To deleting the Blog as there is no special method so install methodoverride 
+||and create your own method of deleting 
+||by passing the id and making the form and placing button in it|
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`MONGO_DB_URL`
+
+
+  
+## Deployment
+
+After your project get finished just run
+
+```
+heroku login
+
+```
+Initialise the git repositary
+
+```
+git init 
+git add.
+git commit -m "Deployment"
+git push heroku master
+
+```
+After some time your website will get deploy.
+
+  
+## Demo
+
+
+https://mern-blog-website.herokuapp.com/
+
+  
+## Tech Stack
+
+**Client:** HTML ,CSS ,JS ,Bootstrap
+**Server:** MongoDB, Express, Nodejs, Slugify
+
+
+
+  
